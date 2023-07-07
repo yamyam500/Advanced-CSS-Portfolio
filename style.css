@@ -12,7 +12,7 @@ body{
     font-family: 'arial';
     margin: 0;
     font-size: inherit;
-    background-color: lightblue
+    background-color: lightblue;
     color: gray;
 }
 
@@ -118,7 +118,7 @@ container{
 }
 .skill-center{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 5rem;
 }
 .section .skill{

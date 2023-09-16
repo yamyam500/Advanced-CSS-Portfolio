@@ -1,193 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Protfolio Web</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Professional Portfolio</title>
 </head>
 
 <body>
-
-    
-    <header> 
-        <nav class="nav container">
-        <div class="nav flex-content">
-         <div class="hamburger">
-            <i class="bx bx-menu"></i>
-        </div>
-        <div class="logo"></div>
-           <h3> Yaya Nur</h3>
-        </div>
-        <div class="menu"></div>
-           <div class="top"></div>
-               <span class="close"><i class="bx bx-x-circle"></i></span>
-            </div>
-        
-         </div>
-
-         <ul class="nav-list flex-content">
-            <li class="nav-item">
-                <a href="#" class="nav-link">home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#aboutme" class="nav-link">about me</a>
-            </li>
-             <li class="nav-item">
-                <a href="#work" class="nav-link">work</a>
-            </li>
-            <li class="nav-item">
-                <a href="#contactme" class="nav-link">contact me</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">resume</a>
-            </li>
-         </ul>
-      </div>
-
-      <div>
-
-      </div>
+  <header>
+    <nav class="text-right">
+      <ul>
+        <li> <a href="https://github.com/yamyam500">Github</a></li>
+        <li> <a href="https://www.linkedin.com/in/yaya-nur-11b3071a6/">linkedin</a></li>
+        <li> <a href="#">Portfolio</a></li>
+        <li> <a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-        <div class="showcase">
-            <div class="showcase flex-content container">
-                <div class="left">
-                    <span class="subtitle">CODER</span>
-                    <h1 class="title">
-                        <span class="color">working on to be a great coder</span>
-                    </h1>
-                    
-                
-                
-                <div class="right">
-                    <div class="shape"></div>
-                    <img src="./images/IMG_0009.JPG" height="200" width="200" al="">
-                </div>
-        
-        </div>
-    
-    </header>
+  </header>
 
-    <section class="section" id="work"> 
-        <div class="title"id="upcoming projects">
-            <h1> working on projects</h1>
-
+  <main>
+    <h1 class="text-center">My New Website</h1>
+    <figure>
+      <img src="./assets/images/image-1.png" alt="Graphic with Coming Soon text">
+      <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+    </figure>
+    <section id="contact">
+      <h2 class="text-center">Contact Me</h2>
+      <form>
+        <ul>
+          <li>
+            <label class="text-right" for="name">Name:</label>
+            <input type="text" id="name" name="user-name">
+          </li>
+          <li>
+            <label class="text-right" for="email">Email:</label>
+            <input type="text" id="email" name="user-email">
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">SEND</button>
         </div>
-        <div class="upcoming projects-center container" id="aboutme">
-            <div class="portfolio web">
-                <div class="img-cover">
-                    <img src="./images/img1.png" height="200 width=200" alt="image">
-                <h3>portfolio Website</h3>
-                <div class="visit">
-                    <a href="" class="visit-link">check it</a>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="img-cover">
-            <img src="./images/img2.png" height="200" width="200" alt="image">
-        <h3>Project one</h3>
-        <div class="visit">
-            <a href="" class="visit-link">check it</a>
-            <span class="subtitle">
-                    <h1 class="title">
-                        <span class="color">my name Yaya. attending u of m bootcamp/web developer</span>
-                    </h1>
-        </div>
-        </div>
-        <div class="img-cover" id="ProjectTwo">
-            <img src="./images/img2.png" height="200"width="200" alt="image">
-        <h3>Project Two</h3>
-        <div class="visit">
-            <a href="" class="visit-link">check it</a>
-        </div>
-        </div>
-        <div class="img-cover">
-            <img src="./images/img2.png" height="200" width="200" alt="image">
-        <h3>Project Three</h3>
-        <div class="visit">
-            <a href="" class="visit-link">check it</a>
-        </div>
-        </div>
-    
-        </div>
+      </form>
     </section>
-    <section class="section skills" id="myskills">
-        <div class="tittle">
-            <h1>my skills</h1>
-        </div>
-        <div class="skill-center container">
-            <div class="skill">
-                <span class="icon"><i class="bx bx1-javascript"></i></span>
-                <h4>javascript</h4>
-                <div class="level"></div>
-            </div>
-           
-                <span class="icon"><i class="bx bx1-javascript"></i></span>
-                <h4>HTML</h4>
-                <div class="level"></div>
-            </div>
-            
-                <span class="icon"><i class="bx bx1-javascript"></i></span>
-                <h4>Css</h4>
-                <div class="level"></div>
-            </div>
-        </div>
-    </section>
+  </main>
 
-    <div class="container">
-        <div class="form">
-            <form>
-                <label for="frame">full name:</label>
-                <input type="text" placeholder="your name...">
-                
-                <label for="email">Email</label>
-                <input type="email" placeholder="email">
-                <label for="work">work</label>
-                <select name="work" id="work">
-                    <option value="Web developer">Web developer</option>
-                    
-                </select>
-
-                <input type="submit" value="submit">
-
-            </form>
-        </div>
-        
-        
-
-        </div>
-
-    </div>
-<footer id="footer" class="section footer">
-    <div class="container" id="contactme">
-        <i class="bx bx1-instagram bx-tada-hover"></i>
-            <a href="http://instragram.com">Instagram</a>
-
-            <i class="bx bx1-facebook bx-tada-hover"></i>
-            <a href="http://facebook.com">facebook</a>
-
-            <i class="bx bx1-paper-plane bx-tada-hover"></i>
-            <a href="http://yamyam5000@gmail.com">Email</a>
-
-            <i class="bx bx1-phone bx-tada-hover"></i>
-            <a href="tel:612-000-0000">call me</a>
-            
-            <i class="bx location bx-tada-hover"></i>
-            <a href="Apple Valley,">Apple Valley,MN</a>
-            
-       
-            
-             </div>
-
-
-         </div>
-        </div>
-    </div>
-</footer>
+  <footer class="text-center">
+    © 2023 My New Website Productions 
+  </footer>
+    
 </body>
-
 </html>
